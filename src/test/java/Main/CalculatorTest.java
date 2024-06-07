@@ -46,4 +46,22 @@ public class CalculatorTest {
         int[] numbers = {10, 5, 20, 8, 15};
         assertEquals(5, calculator.getMin(numbers));
     }
+    @Test
+    public void testGetMins() {
+        Calculator calculator = new Calculator();
+        int[] numbers = {10, 5, 20, 8, 15};
+        assertEquals(5, calculator.getMin(numbers));
+    }
+    @Test
+    public void testGetMin2() {
+        Calculator calculator = new Calculator();
+        int[] numbers = {10, 5, 20, 8, 15};
+        assertEquals(5, calculator.getMin(numbers));
+    }
+    @Test
+    public void testGetMin1() {
+        Calculator calculator = new Calculator();
+        int[] numbers = {10, 5, 20, 8, 15};
+        assertEquals(5, calculator.getMin(numbers));
+    }
 }
