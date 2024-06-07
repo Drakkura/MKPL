@@ -50,7 +50,25 @@ public class Calculator {
         }
         return min;
     }
-      public int getMin(int[] numbers) {
+      public int getMins(int[] numbers) {
+        int min = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }
+        return min;
+    }
+    public int getMins2(int[] numbers) {
+        int min = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }
+        return min;
+    }
+    public int getMins1(int[] numbers) {
         int min = numbers[0];
         for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] < min) {
